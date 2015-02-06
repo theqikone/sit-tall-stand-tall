@@ -1,60 +1,169 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="app" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="app" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Sit Tall Stand Tall</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link type="text/css" rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-  <link type="text/css" rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link type="text/css" rel="stylesheet" href="css/app.css"/>
-  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sit Tall Stand Tall</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/app.css"/>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
 <body>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-  <div ui-view="navbar">
+<div class="container">
 
-  </div>
-
-  <h1 id="title">Sit Tall Stand Tall</h1>
-
-  <div class="main" ui-view="main"></div>
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script>
-
-  <!-- APP -->
-  <script src="js/app.js"></script>
-  <script src="js/core/services/VersionService.js"></script>
-  <script src="js/core/filters/VersionFilter.js"></script>
-  <script src="js/core/directives/VersionDirective.js"></script>
+    <div class="background-image"></div>
 
 
-  <!-- CORE -->
-  <script src="js/core/state.js"></script>
-  <script src="js/core/controllers/AppCtrl.js"></script>
-  <script src="js/core/controllers/NavbarCtrl.js"></script>
+    <div ui-view="navbar">
 
-  <!-- MAIN -->
-  <script src="js/main/state.js"></script>
-  <script src="js/main/controllers/HomeCtrl.js"></script>
-  <script src="js/main/controllers/AboutCtrl.js"></script>
-  <script src="js/main/controllers/ContactCtrl.js"></script>
+        <div class="navbar navbar-fixed-top">
+            <nav class="navbar-inner header">
+                <div class="container">
+                    <div class="brand">
+                        <i class="icon-star-empty"></i> sTsT <i class="icon-star-empty"></i>
+                    </div>
+                    <div class="nav pull-right">
+                        <ul>
+                            <li class="dropdown-menu">
+                                <a class="dropdown-submenu" href="#">WARRIORS <span class="caret"></span></a>
+
+                                <div class="dropdown-menu text-center">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Andrew Holmes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jenny Alexander</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Keith Stolworthy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cameron Sevy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Matt Wyffels</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Ken Vaughn</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jade Greenhalgh</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Seth Loughmiller</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cambry Kaylor</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Becky Reeve</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Travis Jepperson</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Amanda Elmore</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cotton McColloch</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#">NEWS</a>
+                            </li>
+                            <li>
+                                <a href="#">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="#">SIGN UP</a>
+                            </li>
+                            <li>
+                                <a href="#">SPONSORSHIP PROGRAM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" collapse="navbarCollapsed">
+            <!-- your normal collapsable content here -->
+        </div>
+        </nav>
+
+    </div>
+
+    <div>
+
+
+        <h1 id="title">Sit Tall Stand Tall</h1>
+
+        <h3 id="sub-title">CHANGING THE WORLD, ONE STEP AT A TIME...</h3>
+
+    </div>
+
+    <div class="main" ui-view="main"></div>
+</div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script>
+
+<!-- APP -->
+<script src="js/app.js"></script>
+<script src="js/core/services/VersionService.js"></script>
+<script src="js/core/filters/VersionFilter.js"></script>
+<script src="js/core/directives/VersionDirective.js"></script>
+
+
+<!-- CORE -->
+<script src="js/core/state.js"></script>
+<script src="js/core/controllers/AppCtrl.js"></script>
+<script src="js/core/controllers/NavbarCtrl.js"></script>
+
+<!-- MAIN -->
+<script src="js/main/state.js"></script>
+<script src="js/main/controllers/HomeCtrl.js"></script>
+<script src="js/main/controllers/AboutCtrl.js"></script>
+<script src="js/main/controllers/ContactCtrl.js"></script>
 
 </body>
 </html>

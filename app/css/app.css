@@ -1,29 +1,65 @@
-/* app css stylesheet */
+/*app css stylesheet*/
+
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('capture_it-webfont.eot');
+    src: url('capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('capture_it-webfont.woff2') format('woff2'),
+         url('capture_it-webfont.woff') format('woff'),
+         url('capture_it-webfont.ttf') format('truetype'),
+         url('capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    background: url('https://ununsplash.imgix.net/40/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg?q=75&fm=jpg&s=d6ce591c2de5ee7a465c856782fe765c') no-repeat center center fixed;
+    background-size: contain;
+    background-position: center;
 }
 
 .container {
-  width: 960px;
-  margin: 0 auto;
+    width: 100%;
+    /*margin: 0 auto;*/
 }
 
 .main {
-  clear:both;
+    clear: both;
 }
 
 .nav {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav li {
-  float: left;
-  margin-right: 10px;
+    float: left;
+    margin-right: 10px;
 }
 
 .nav:after {
-  clear:both;
+    clear: both;
 }
+
+h1#title {
+    color: #363333;
+    margin-top: 300px;
+    margin-left: 2%;
+    font-size: 5em;
+    font-family: "capture_itregular";
+
+}
+
+h3#sub-title {
+    color: lightgrey;
+    margin-left: 10%;
+}
+
+/*Background Image CSS*/
+
+/*Beginning of Navbar CSS*/
+
+/*End of Navbar CSS*/
